@@ -76,23 +76,7 @@
         </div>
     </div>
 
-    <script src = "index.js">
-        const registerBtn = document.getElementById("register");
-        const loginBtn = document.getElementById("logIn");
-        const container = document.getElementById("container");
-        const toggle = document.getElementById("toggleContainer");
-
-        const h = toggle.getBoundingClientRect().height;
-        const H = container.getBoundingClientRect().height;
-        console.log(H);
-        console.log(h);
-        registerBtn.addEventListener("click", () => {
-            container.classList.add("containerActive");
-        });
-
-        loginBtn.addEventListener("click", () => {
-            container.classList.remove("containerActive");
-        });
-    </script>
+    <script src = "index.js"></script>
 </body>
+
 </html>
